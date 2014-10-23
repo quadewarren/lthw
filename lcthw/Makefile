@@ -1,4 +1,8 @@
-CFLAGS=-Wall -g
+CFLAGS =-Wall -g
+
+all: ex19
+
+ex19: object.o
 
 clean:
-	find . -type f -name 'ex*[0-9]' -delete 
+	rm -f ex19
