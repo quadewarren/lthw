@@ -1,3 +1,4 @@
+; I cannot seem to get this code to work from the examples
 (in-package :cl-user)
 
 (defpackage #:my-new-package
